@@ -1,0 +1,83 @@
+# ===========================================
+#  PYTHON PROJECTS (Data Engineering / Analytics)
+# ===========================================
+
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Archivos de cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs y debug
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+
+# Archivos de configuración locales
+.env
+*.env
+
+# ===========================================
+#  JUPYTER NOTEBOOKS
+# ===========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# ===========================================
+#  DATOS (no subir datos locales pesados)
+# ===========================================
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.xlsx
+*.xls
+*.ods
+
+# ===========================================
+#  DASHBOARDS (Power BI / Tableau / KNIME)
+# ===========================================
+# Si quieres subir tus dashboards finales, comenta estas líneas
+*.pbix
+*.pbit
+*.twb
+*.twbx
+*.knwf
+
+# ===========================================
+#  SISTEMAS OPERATIVOS
+# ===========================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# ===========================================
+#  OTROS
+# ===========================================
+# Configuración IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backups temporales
+*.bak
+*.tmp
+*.old
